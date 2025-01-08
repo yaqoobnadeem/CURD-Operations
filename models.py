@@ -11,6 +11,6 @@ def create_table():
 # SQLAlchemy model for `notes` table
 class Note(Base):
     __tablename__ = 'notes'
-    id = Column(Integer, primary_key=True, index=True)
+    Id = Column(Integer, primary_key=True, index=True)
     task = Column(String(500), nullable=False)
 
